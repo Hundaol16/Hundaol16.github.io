@@ -1,0 +1,10 @@
+.sticky-image img {
+    width: 100%;
+    height: auto; 
+  }
+  
+  .sticky-image {
+    position: sticky;
+    top: 0.5rem;
+    width: 100%;
+  }
