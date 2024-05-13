@@ -1,0 +1,55 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  background-image: linear-gradient(180deg, rgba(201, 41, 68, 0.75) 10%, rgb(194, 27, 27) 65%);
+  background-color: yellow;
+}
+
+.sticky-image img {
+  width: 100%;
+  height: auto; 
+}
+
+.sticky-image {
+  position: sticky;
+  top: 0.5rem;
+  width: 100%;
+}
+
+.navbar-nav .nav-link.active:hover {
+  transition: font-size 0.3s ease;
+}
+
+.navbar-nav .nav-link.active:hover {
+  font-size: 1.5rem;
+ 
+}
+
+.navbar-nav .dropdown-menu {
+  transition: font-size 0.3s ease;
+}
+
+.navbar-nav .dropdown:hover {
+  font-size: 1.5rem;
+ 
+}
+
+.navbar-brand {
+  text-align: center;
+  transition: font-size 0.3s ease;
+}
+.navbar-nav .dropdown:hover .dropdown-menu {
+  display: block;
+}
+.navbar-brand:hover {
+  font-size: 2rem; 
+}
+::-webkit-scrollbar {
+  background-image:linear-gradient(180deg, rgba(201, 41, 68, 0.75) 10%, rgb(194, 27, 27) 65%); ;
+}
