@@ -53,3 +53,16 @@
 ::-webkit-scrollbar {
   background-image:linear-gradient(180deg, rgba(201, 41, 68, 0.75) 10%, rgb(194, 27, 27) 65%); ;
 }
+
+#searchResults {
+    margin-top: 10px;
+}
+#searchResults a {
+    display: block;
+    margin: 5px 0;
+    text-decoration: none;
+    color: blue;
+}
+#searchResults a:hover {
+    text-decoration: underline;
+}
