@@ -20,7 +20,7 @@ function search() {
     searchResults = document.getElementById('searchResults');
     searchResults.innerHTML = ''; // Clear previous results
     // Simulated list of items to search through
-    var items = ['UCW Ready to Play "I Can Be Your Hero, Baby" e-sports build. '];
+    var items = ['UCW Ready to Play "I Can Be Your Hero, Baby" e-sports build.'];
     for (i = 0; i < items.length; i++) {
         if (items[i].toUpperCase().indexOf(filter) > -1) {
             // If the search term matches an item, display it
@@ -30,3 +30,25 @@ function search() {
         }
     }
 }
+const items = [
+    {
+        name: "UCW Ready to Play \"I Can Be Your Hero, Baby\" e-sports build. (i7-6700k + GTX 970+ 32 gb) Free ship!",
+        price: "$469.00"
+    },];
+
+function generateBuyButtons() {
+    const container = document.getElementById("buy-button-container");
+    items.forEach(item => {
+        const button = document.createElement("button");
+        button.innerHTML = "Buy " + item.name + " - " + item.price;
+        button.onclick = function () {
+            console.log("Clicked Buy for", item.name);
+            // You can add further functionality here, like adding the item to a cart
+        };
+        container.appendChild(button);
+    });
+}
+
+// Call the function to generate buy buttons when the page loads
+window.onload = generateBuyButtons;
+
