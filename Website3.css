@@ -53,4 +53,9 @@
   ::-webkit-scrollbar {
     background-image:linear-gradient(180deg, rgba(41, 116, 201, 0.75) 10%, rgb(27, 169, 194) 65%);
   }
-  
+  .buy {
+    margin-top: 10px;
+    text-underline-offset: 5px;
+    text-decoration: underline;
+    color: rgb(0, 0, 0);
+}

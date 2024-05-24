@@ -49,3 +49,9 @@
   .navbar-brand:hover {
     font-size: 2rem; 
   }
+  .buy {
+    margin-top: 10px;
+    text-underline-offset: 5px;
+    text-decoration: underline;
+    color: rgb(0, 0, 0);
+}
